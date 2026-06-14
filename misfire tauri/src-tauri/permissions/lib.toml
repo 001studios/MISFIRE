@@ -1,0 +1,10 @@
+[[permission]]
+identifier = "allow-local-commands"
+description = "Permite ejecutar los comandos personalizados de main.rs"
+
+# El truco está en el ".allow" acá abajo:
+commands.allow = [
+    "close_app",
+    "read_data",
+    "write_data"
+]

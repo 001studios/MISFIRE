@@ -1,0 +1,32 @@
+{
+  "productName": "misfire",
+  "version": "1.1.0",
+  "identifier": "com.misfire.dev",
+  "build": {
+    "frontendDist": "../ui"
+  },
+  "app": {
+    "windows": [
+      {
+        "fullscreen": false,
+        "width": 1280,
+        "height": 720,
+        "resizable": true,
+        "title": "MisFire"
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.ico",
+      "icons/icon.icns"
+    ]
+  }
+}
